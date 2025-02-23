@@ -99,3 +99,4 @@
 /Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib.Tests/obj/Debug/net9.0/RomanNumeralsLib.Tests.pdb
 /Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib.Tests/obj/Debug/net9.0/RomanNumeralsLib.Tests.genruntimeconfig.cache
 /Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib.Tests/obj/Debug/net9.0/ref/RomanNumeralsLib.Tests.dll
+/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib.Tests/obj/Debug/net9.0/RomanNumeralsLib.Tests.sourcelink.json
