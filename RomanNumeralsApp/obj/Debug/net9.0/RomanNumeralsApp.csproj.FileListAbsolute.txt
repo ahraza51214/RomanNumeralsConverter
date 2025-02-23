@@ -16,3 +16,4 @@
 /Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsApp/obj/Debug/net9.0/RomanNumeralsApp.pdb
 /Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsApp/obj/Debug/net9.0/RomanNumeralsApp.genruntimeconfig.cache
 /Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsApp/obj/Debug/net9.0/ref/RomanNumeralsApp.dll
+/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsApp/obj/Debug/net9.0/RomanNumeralsApp.sourcelink.json
