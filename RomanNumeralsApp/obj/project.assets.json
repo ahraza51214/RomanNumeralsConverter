@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "RomanNumeralsLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/RomanNumeralsLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RomanNumeralsLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RomanNumeralsLib/1.0.0": {
+      "type": "project",
+      "path": "../RomanNumeralsLib/RomanNumeralsLib.csproj",
+      "msbuildProject": "../RomanNumeralsLib/RomanNumeralsLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "RomanNumeralsLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ahr/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsApp/RomanNumeralsApp.csproj",
+      "projectName": "RomanNumeralsApp",
+      "projectPath": "/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsApp/RomanNumeralsApp.csproj",
+      "packagesPath": "/Users/ahr/.nuget/packages/",
+      "outputPath": "/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsApp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/ahr/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib/RomanNumeralsLib.csproj": {
+              "projectPath": "/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib/RomanNumeralsLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

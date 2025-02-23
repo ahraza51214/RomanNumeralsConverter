@@ -1,0 +1,11 @@
+/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib/bin/Debug/net9.0/RomanNumeralsLib.deps.json
+/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib/bin/Debug/net9.0/RomanNumeralsLib.dll
+/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib/bin/Debug/net9.0/RomanNumeralsLib.pdb
+/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib/obj/Debug/net9.0/RomanNumeralsLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib/obj/Debug/net9.0/RomanNumeralsLib.AssemblyInfoInputs.cache
+/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib/obj/Debug/net9.0/RomanNumeralsLib.AssemblyInfo.cs
+/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib/obj/Debug/net9.0/RomanNumeralsLib.csproj.CoreCompileInputs.cache
+/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib/obj/Debug/net9.0/RomanNumeralsLib.dll
+/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib/obj/Debug/net9.0/refint/RomanNumeralsLib.dll
+/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib/obj/Debug/net9.0/RomanNumeralsLib.pdb
+/Users/ahr/Documents/Career/JobSearch/Cover letter 2025/Jyske Bank Case/RomanNumeralSolution/RomanNumeralsLib/obj/Debug/net9.0/ref/RomanNumeralsLib.dll

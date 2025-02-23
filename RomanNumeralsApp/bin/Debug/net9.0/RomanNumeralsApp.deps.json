@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "RomanNumeralsApp/1.0.0": {
+        "dependencies": {
+          "RomanNumeralsLib": "1.0.0"
+        },
+        "runtime": {
+          "RomanNumeralsApp.dll": {}
+        }
+      },
+      "RomanNumeralsLib/1.0.0": {
+        "runtime": {
+          "RomanNumeralsLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RomanNumeralsApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RomanNumeralsLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
