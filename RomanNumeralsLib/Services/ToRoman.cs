@@ -19,8 +19,8 @@ namespace RomanNumeralsLib.Services
         public string Convert(int number)
         {
             // Tjekker, om inputtet er inden for det gyldige interval.
-            if (number <= 0 || number >= 10000)
-            throw new ArgumentOutOfRangeException(nameof(number), "Værdien skal være mellem 1 og 2999.");
+            if (number <= 0 || number >= 10001)
+            throw new ArgumentOutOfRangeException(nameof(number), "Værdien skal være mellem 1 og 10000.");
 
             var result = new StringBuilder();
             // Gennemløb alle regler fra den højeste værdi til den laveste.

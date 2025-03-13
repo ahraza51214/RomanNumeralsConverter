@@ -79,7 +79,7 @@ namespace RomanNumeralsApp
         {
             while (true)
             {
-                Console.Write("Indtast venligst et decimaltal (mellem 1 og 2999): ");
+                Console.Write("Indtast venligst et decimaltal (mellem 1 og 10000): ");
                 string decimalInput = Console.ReadLine() ?? string.Empty;
 
                 try
