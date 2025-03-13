@@ -12,10 +12,11 @@ namespace RomanNumeralsApp
     {
         static void Main(string[] args)
         {
-            // Initialiser converter-facaden.
+            // Initialiserer vores converter facade, som implementerer IRomanNumeralConverter.
             IRomanNumeralConverter converter = new RomanNumeralFacade();
             bool continueProgram = true;
 
+            // Hovedløkke: Kører, indtil brugeren vælger at afslutte.
             while (continueProgram)
             {
                 Console.Clear();
@@ -27,8 +28,10 @@ namespace RomanNumeralsApp
                 Console.WriteLine("0. Afslut programmet");
                 Console.Write("Indtast dit valg (0, 1 eller 2): ");
 
+                // Læser brugerens valg og sikrer, at vi ikke får en null-reference.
                 string choice = Console.ReadLine() ?? string.Empty;
 
+                // Switch-case, der kalder den relevante funktion.
                 switch (choice)
                 {
                     case "1":
@@ -49,62 +52,56 @@ namespace RomanNumeralsApp
             }
         }
 
-        /// <summary>
-        /// Håndterer konvertering fra romertal til decimal med validering.
-        /// </summary>
+        // Metode, der håndterer konvertering af romertal til decimal med fejlbehandling.
         static void ConvertRomanToDecimal(IRomanNumeralConverter converter)
         {
             while (true)
             {
                 Console.Write("Indtast venligst et romertal (f.eks. MCMXCIX): ");
-                string romanInput =  Console.ReadLine() ?? string.Empty;
+                string romanInput = Console.ReadLine() ?? string.Empty;
 
                 try
                 {
                     int decimalResult = converter.ToDecimal(romanInput);
                     Console.WriteLine($"Romertallet {romanInput} svarer til {decimalResult}.");
-                    break;
+                    break; // Hvis konverteringen lykkes, brydes løkken.
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"{ex.Message}. Prøv igen.");
+                    Console.WriteLine($"Fejl: {ex.Message}. Prøv igen.");
                 }
             }
             WaitForUser();
         }
 
-        /// <summary>
-        /// Håndterer konvertering fra decimal til romertal med validering.
-        /// </summary>
+        // Metode, der håndterer konvertering af decimal til romertal med fejlbehandling.
         static void ConvertDecimalToRoman(IRomanNumeralConverter converter)
         {
             while (true)
             {
                 Console.Write("Indtast venligst et decimaltal (mellem 1 og 2999): ");
-                string decimalInput =  Console.ReadLine() ?? string.Empty;
+                string decimalInput = Console.ReadLine() ?? string.Empty;
 
                 try
                 {
                     int number = int.Parse(decimalInput);
                     string romanResult = converter.ToRoman(number);
                     Console.WriteLine($"{number} konverteret til romertal er: {romanResult}.");
-                    break;
+                    break; // Bryd løkken, når konverteringen lykkes.
                 }
                 catch (FormatException)
                 {
-                    Console.WriteLine("Indtast venligst et gyldigt tal.");
+                    Console.WriteLine("Fejl: Indtast venligst et gyldigt tal.");
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"{ex.Message}. Prøv igen.");
+                    Console.WriteLine($"Fejl: {ex.Message}. Prøv igen.");
                 }
             }
             WaitForUser();
         }
 
-        /// <summary>
-        /// Hjælper brugeren med at se resultatet, før programmet fortsætter.
-        /// </summary>
+        // Hjælpefunktion, der pauser programmet, så brugeren kan se resultatet.
         static void WaitForUser()
         {
             Console.WriteLine("\nTryk på en vilkårlig tast for at fortsætte...");
